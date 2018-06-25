@@ -1,11 +1,11 @@
-class CLambda : public CParticle
+class CMuon : public CParticle
 {
         CParticle* particle;
 private:
-        CLambda() { }
+        CMuon() { }
 public:
-        CLambda(TVector3 _P, TLorentzVector _X);
-        ~CLambda();
+        CMuon(TVector3 _P, TLorentzVector _X);
+        ~CMuon();
         TVector3 GetP();
         TLorentzVector GetX();
         Float_t GetM();
